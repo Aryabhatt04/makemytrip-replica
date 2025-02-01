@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MakeMyTrip Clone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="logo">
+        <img src="https://imgak.mmtcdn.com/pwa_v3/pwa_hotel_assets/header/mmtLogoWhite.png" alt="MakeMyTrip Logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Flights</a></li>
+        <li><a href="#">Hotels</a></li>
+        <li><a href="#">Homestays</a></li>
+        <li><a href="#">Holiday Packages</a></li>
+        <li><a href="#">Trains</a></li>
+        <li><a href="#">Buses</a></li>
+        <li><a href="#">Cabs</a></li>
+        <li><a href="#">Villas</a></li>
+      </ul>
+      <div class="auth-buttons">
+        <button class="login">Login or Create Account</button>
+      </div>
+    </nav>
+
+    <!-- Search Bar -->
+    <div class="search-container">
+      <form class="search-form">
+        <div class="input-group">
+          <label for="from">From</label>
+          <input type="text" id="from" placeholder="Enter city or airport">
+        </div>
+        <div class="input-group">
+          <label for="to">To</label>
+          <input type="text" id="to" placeholder="Enter city or airport">
+        </div>
+        <div class="input-group">
+          <label for="departure">Departure</label>
+          <input type="date" id="departure">
+        </div>
+        <div class="input-group">
+          <label for="return">Return</label>
+          <input type="date" id="return">
+        </div>
+        <button type="submit">Search</button>
+      </form>
+    </div>
+
+    <!-- Special Fare Categories -->
+    <div class="special-fares">
+      <div class="fare-card">
+        <img src="https://imgak.mmtcdn.com/pwa_v3/pwa_common_assets/assetpwa/images/icDeals.webp" alt="Deals">
+        <p>Deals</p>
+      </div>
+      <div class="fare-card">
+        <img src="https://imgak.mmtcdn.com/pwa_v3/pwa_common_assets/assetpwa/images/icStudentFare.webp" alt="Student Fares">
+        <p>Student Fares</p>
+      </div>
+      <div class="fare-card">
+        <img src="https://imgak.mmtcdn.com/pwa_v3/pwa_common_assets/assetpwa/images/icSeniorCitizen.webp" alt="Senior Citizen Fares">
+        <p>Senior Citizen Fares</p>
+      </div>
+      <div class="fare-card">
+        <img src="https://imgak.mmtcdn.com/pwa_v3/pwa_common_assets/assetpwa/images/icGroupBooking.webp" alt="Group Bookings">
+        <p>Group Bookings</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
